@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Największa wyszukiwarka zadań egzaminacyjnych CKE/OKE.</b><br/>
-  Matura, egzamin ósmoklasisty i gimnazjalny, próbne, informatory — z OCR,
+  Matura, egzamin ósmoklasisty i zawodowy, próbne, informatory — z OCR,
   kluczami odpowiedzi, rozwiązaniami i tagowaniem Jev.
 </p>
 
