@@ -19,4 +19,4 @@ exam papers.
 - Data & models: [huggingface.co/matura-lol](https://huggingface.co/matura-lol)
 - Site: [matura.lol](https://matura.lol)
 
-License: MIT (this repo) — see [LICENSE](LICENSE).
+License: AGPL-3.0 — see [LICENSE](LICENSE).
