@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/og.png" alt="matura.lol" width="720"/>
+  <img src="https://raw.githubusercontent.com/matura-lol/.github/main/assets/og.png" alt="matura.lol" width="720"/>
 </p>
 
 <h1 align="center">matura.lol</h1>
@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://matura.lol"><img src="https://img.shields.io/badge/site-matura.lol-3b82f6?logo=googlechrome&logoColor=white" alt="Site"/></a>
   <a href="https://huggingface.co/matura-lol"><img src="https://img.shields.io/badge/HuggingFace-matura--lol-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace"/></a>
-  <img src="assets/days-to-matura.svg" alt="Dni do matury"/>
+  <img src="https://raw.githubusercontent.com/matura-lol/.github/main/assets/days-to-matura.svg" alt="Dni do matury"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License"/></a>
 </p>
 
