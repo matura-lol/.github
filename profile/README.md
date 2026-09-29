@@ -24,9 +24,7 @@
 | Repozytorium | Opis |
 | --- | --- |
 | [**datasets**](https://github.com/matura-lol/datasets) | Dane otwarte: polskie arkusze egzaminacyjne, odpowiedzi, rozwiązania i źródła używane na matura.lol (zstd). |
-| [**GLiNER2.5-finetune**](https://github.com/matura-lol/GLiNER2.5-finetune) | Narzędzia fine-tune'u GLiNER2.5-multi-Decide do klasyfikacji zadań (dział, metoda, forma, trudność). |
 | [**Jev-categorise**](https://github.com/matura-lol/Jev-categorise) | Tagowanie arkuszy i zadań przez TypeSafe Jev (dział, trudność, sposób, forma, bloom, czas). |
-| [**MLClassify**](https://github.com/matura-lol/MLClassify) | Podejście ML do klasyfikacji treści na serwisie. |
 
 ## Dane i modele
 
@@ -45,6 +43,6 @@ Hugging Face w organizacji [**matura-lol**](https://huggingface.co/matura-lol):
 ---
 
 <p align="center">
-  Zrób z nami maturę do końca — <a href="https://matura.lol">matura.lol</a> ·
+  Wzór na maturę — <a href="https://matura.lol">matura.lol</a> ·
   <a href="https://discord.gg/UBMVWXDJwU">Discord</a> · Polska 🇵🇱
 </p>
