@@ -30,7 +30,7 @@ def days_to_matura(now: dt.date) -> tuple[int, dt.date]:
 
 
 def _text_w(chars: int) -> int:
-    return 12 + chars * 8
+    return 7 + chars * 8
 
 
 def badge(left: str, right: str, color: str, today: bool = False) -> str:
@@ -42,24 +42,21 @@ def badge(left: str, right: str, color: str, today: bool = False) -> str:
     left_s = sax.escape(left)
     right_s = sax.escape(right)
     sub = sax.escape("Dziś matura!" if today else "")
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="28" role="img" aria-label="{left_s}: {right_s}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="20" role="img" aria-label="{left_s}: {right_s}">
   <title>{left_s}: {right_s}</title>
   <linearGradient id="s" x2="0" y2="100%">
     <stop offset="0" stop-opacity=".1" stop-color="#fff"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <clipPath id="r"><rect width="{width}" height="28" rx="5" fill="#fff"/></clipPath>
+  <clipPath id="r"><rect width="{width}" height="20" rx="3" fill="#fff"/></clipPath>
   <g clip-path="url(#r)">
-    <rect width="{lw}" height="28" fill="{LEFT}"/>
-    <rect x="{lw}" width="{rw}" height="28" fill="{color}"/>
-    <rect width="{width}" height="28" fill="url(#s)"/>
+    <rect width="{lw}" height="20" fill="{LEFT}"/>
+    <rect x="{lw}" width="{rw}" height="20" fill="{color}"/>
+    <rect width="{width}" height="20" fill="url(#s)"/>
   </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="13">
-    <text x="{lcx}" y="18.5" font-weight="bold">{left_s}</text>
-    <text x="{rcx}" y="18.5" font-weight="bold">{right_s}</text>
-  </g>
-  <g fill="#ffffff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="9">
-    <text x="{rcx}" y="25.5" opacity="0.85">{sub}</text>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="{lcx}" y="14" font-weight="bold">{left_s}</text>
+    <text x="{rcx}" y="14" font-weight="bold">{right_s}</text>
   </g>
 </svg>'''
 

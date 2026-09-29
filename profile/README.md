@@ -24,6 +24,7 @@
 | Repozytorium | Opis |
 | --- | --- |
 | [**datasets**](https://github.com/matura-lol/datasets) | Dane otwarte: polskie arkusze egzaminacyjne, odpowiedzi, rozwiązania i źródła używane na matura.lol (zstd). |
+| [**GLiNER2.5-finetune**](https://github.com/matura-lol/GLiNER2.5-finetune) | Narzędzia fine-tune'u GLiNER2.5-multi-Decide do klasyfikacji zadań (dział, metoda, forma, trudność). |
 | [**Jev-categorise**](https://github.com/matura-lol/Jev-categorise) | Tagowanie arkuszy i zadań przez TypeSafe Jev (dział, trudność, sposób, forma, bloom, czas). |
 
 ## Dane i modele
