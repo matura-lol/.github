@@ -1,0 +1,34 @@
+name: days-to-matura
+
+on:
+  schedule:
+    # 05:00 UTC every day
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/scripts/days_to_matura.py"
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate days-to-matura badge
+        run: python3 .github/scripts/days_to_matura.py
+
+      - name: Commit updated badge
+        run: |
+          git config user.name "matura-lol-bot"
+          git config user.email "matura-lol-bot@users.noreply.github.com"
+          git add assets/days-to-matura.svg days-to-matura.json
+          if git diff --cached --quiet; then
+            echo "No change — badge is current."
+            exit 0
+          fi
+          git commit -m "chore: update days-to-matura badge ($(python3 -c 'import json;print(json.load(open("days-to-matura.json"))["days"])') dni)"
+          git push
